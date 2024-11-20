@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename compilation unit &apos;Lab05.java&apos; to &apos;DateAndTimeTester.java&apos;&#x0A;- Original project: &apos;Lab 05&apos;&#x0A;- Original element: &apos;Lab05.java&apos;&#x0A;- Renamed element: &apos;DateAndTimeTester.java&apos;" description="Rename compilation unit &apos;Lab05.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{Lab05.java" name="DateAndTimeTester.java" references="false" stamp="1729117695713" version="1.0"/>
-</session>

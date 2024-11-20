@@ -1,9 +1,0 @@
-
-public class STLHelper {
-	public static String getFileSize(String fileName)
-	{
-		String inputDir = "res/";
-		String output = " KB";
-		return output;
-	}
-}

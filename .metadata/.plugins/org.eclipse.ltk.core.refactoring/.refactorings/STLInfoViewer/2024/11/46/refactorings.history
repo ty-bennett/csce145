@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename local variable &apos;arg0&apos; in &apos;Main.start(...)&apos; to &apos;primaryStage&apos;&#x0A;- Original project: &apos;STLInfoViewer&apos;&#x0A;- Original element: &apos;Main.start(Stage).arg0&apos;&#x0A;- Renamed element: &apos;arg0&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;arg0&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{Main.java[Main~start~QStage;@arg0!577!586!583!586!QStage;!0!true" name="primaryStage" references="true" stamp="1731627036825" version="1.0"/>
-</session>

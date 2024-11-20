@@ -1,5 +1,0 @@
-//This is saying that
-//Cat is an Animal, the cat has the same info as the Animal class
-public class Cat extends Animal{
-
-}
