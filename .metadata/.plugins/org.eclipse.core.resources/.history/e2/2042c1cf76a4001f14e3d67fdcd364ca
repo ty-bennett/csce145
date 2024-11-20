@@ -1,0 +1,17 @@
+/*
+ * Written by Ty Bennett  
+ */
+public class Bicycle {
+	private String make;
+	private Wheel FrontWheel;
+	private Wheel BackWheel;
+	private Frame Frame;
+	
+	public void setMake(String make)
+	{
+		if(make != null)
+			this.make = make;
+		else
+			this.make = "none";
+	}
+}

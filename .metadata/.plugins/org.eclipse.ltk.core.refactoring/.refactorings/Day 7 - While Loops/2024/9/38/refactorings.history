@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;WhileLoops.java&apos; to &apos;Recap_Examples/src/(default package)&apos;&#x0A;- Original project: &apos;Day 7 - While Loops&apos;&#x0A;- Destination element: &apos;Recap_Examples/src/(default package)&apos;&#x0A;- Original element: &apos;WhileLoops.java&apos;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=Recap_Examples/src&lt;" element1="/src&lt;{WhileLoops.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1726749138266" units="1" version="1.0"/>
+</session>

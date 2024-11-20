@@ -1,0 +1,72 @@
+/*
+ * Written by Ty Bennett  
+ */
+public class Bicycle {
+	private String make;
+	private Wheel FrontWheel;
+	private Wheel BackWheel;
+	private Frame Frame;
+	
+	public void setMake(String make)
+	{
+		if(make != null)
+			this.make = make;
+		else
+			this.make = "none";
+	}
+	public void setFrontWheel(Wheel frontWheel)
+	{
+		if(frontWheel != null && (frontWheel.getDiameter() <= 55 || frontWheel.getDiameter() >= 16))
+		//if((diameter <= 55 || diameter >= 16) && (width <= 2.5 || width >= 1.0))
+		FrontWheel = new Wheel(frontWheel.getDiameter(), frontWheel.getWidth());
+	// otherwise it sets diameter to the default value of 16
+	else
+		 FrontWheel = new Wheel();
+	}
+	public void setBackWheel(Wheel backWheel)
+	{
+		if(backWheel != null && (backWheel.getDiameter() <= 55 || backWheel.getDiameter() >= 16))
+		//if((diameter <= 55 || diameter >= 16) && (width <= 2.5 || width >= 1.0))
+			BackWheel = new Wheel(backWheel.getDiameter(), backWheel.getWidth());
+		// otherwise it sets diameter to the default value of 16
+		else
+			 BackWheel = new Wheel();
+	}
+	public void setFrame(float size, String type)
+	{
+		if((size <= 60 || size >= 18.5) && (type != null && type.equals("Diamond") || type.equals("Step-Through") || type.equals("Truss") || type.equals("Penny-Farthing")))
+			 Frame = new Frame(size, type);
+		else
+			Frame = new Frame();	
+	}
+	
+	public String getMake()
+	{
+		return this.make;
+	}
+	public Wheel getFrontWheel()
+	{
+		return FrontWheel;
+	}
+	public Wheel getBackWheel()
+	{
+		return BackWheel;
+	}
+	public Frame getFrame()
+	{
+		return Frame;
+	}
+	
+	public String toString(Wheel FrontWheel, Wheel BackWheel, String make, Frame Frame)
+	{
+		return "[Bicycle] Make: " + getMake() + "FrontWheel: " + getFrontWheel() + "BackWheel: " + getBackWheel() + "Frame " + getFrame();
+	}
+	public boolean equals(Bicycle b)
+	{
+		if(b != null && this.getMake().equals(b.getMake()) && this.getFrontWheel().equals(b.getFrontWheel()) && this.getBackWheel().equals(b.getBackWheel()) && this.getFrame().equals(b.getFrame()))
+			return true;
+		else
+			return false;
+	}
+		
+}

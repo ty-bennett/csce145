@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;max&apos; in &apos;Recap_Arrays.main(...)&apos; to &apos;min&apos;&#x0A;- Original project: &apos;Recap_Examples&apos;&#x0A;- Original element: &apos;Recap_Arrays.main(String[]).max&apos;&#x0A;- Renamed element: &apos;max&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;max&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{Recap_Arrays.java[Recap_Arrays~main~\[QString;@max!312!330!316!318!I!0!false" name="min" references="true" stamp="1727354877759" version="1.0"/>
+</session>

@@ -1,0 +1,14 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Animal a = new Animal("Bart");
+
+		System.out.println(a.getName());
+		
+		Cat c = new Cat();
+		System.out.println(c.getName());
+	}
+	
+
+}

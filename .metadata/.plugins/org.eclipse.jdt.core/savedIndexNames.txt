@@ -1,0 +1,12 @@
+INDEX VERSION 1.134+/Users/tybennett/Developer/Code/eclipse/.metadata/.plugins/org.eclipse.jdt.core
+3380583002.index
+1865797976.index
+3848902211.index
+477696993.index
+118522077.index
+2921237424.index
+1083294067.index
+913124580.index
+3339186595.index
+2812887102.index
+2199076570.index
